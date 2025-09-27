@@ -1,0 +1,148 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Basic of Staking',
+};
+---
+
+<Layout metadata={metadata}>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68d49ea1eaff2dd921be37d2&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+    actions={[
+      {
+        variant: 'primary',
+        target: '_blank',
+        text: 'APP STAKING',
+        href: 'https://linktr.ee/reystaking',
+        icon: 'tabler:clock-bitcoin',
+      },
+      { text: 'REY SHOP', href: 'https://linktr.ee/reystaking' },
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"> </span> <span
+        class="text-accent dark:text-white">Protocol Staking</span
+      > 
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/15a89522-e2b2-486a-9e0f-3ca78c45dd93/P2CytOB6KU.lottie" speed="0.3" style="width: 100%; height: 100px" mode="forward" loop autoplay></dotlottie-wc>
+      <span class="font-semibold"> </span> Staking is a process in which token holders can earn rewards by helping to secure a blockchain network. Watch the video to learn more about how staking works.
+    </Fragment>
+
+    <Fragment slot="image">
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/a20aa746-34eb-4e20-b07d-2840cc6c1a9c/p0pWyPvuCB.lottie" speed="1" style="width: 100%; height: 460px" mode="forward" loop autoplay></dotlottie-wc>
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="What is Staking"
+    subtitle=" Staking is a process in which token holders can earn rewards by helping to secure a blockchain network. Watch the video to learn more about how staking works.
+    Offering unique benefits when compared to investment product alternatives such as lending, buy-and-hold, and other methods, staking allows token holders to have the opportunity to grow their position without buying additional tokens."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="Why Stake?"
+    subtitle=" Staking is not an investment product. Rather, it enables token holders to earn rewards by delegating their tokens in order to validate transactions on the underlying blockchain, which helps ensure the security and integrity of the network."
+    stats={[
+     
+    ]}
+  />
+
+ <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Who is Staking For?"
+    subtitle=" Rey.Fan Supports Established & Emerging Protocols."
+    columns={3}
+    items={[
+      {
+        title: 'Asset Managers',
+        description:
+          'Have a contemporary design that reflects current design trends and gives a professional impression.',
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'Marketplaces',
+        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
+        icon: 'tabler:replace',
+      },
+      {
+        title: 'Custodians & Wallets',
+        description:
+          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
+        icon: 'tabler:adjustments-horizontal',
+      },
+      {
+        title: 'Fund Products',
+        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Foundations',
+        description:
+          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
+        icon: 'tabler:arrows-right-left',
+      },
+      {
+        title: 'Data Platforms',
+        description: 'The templates work seamlessly across various content management systems and website builders.',
+        icon: 'tabler:plug-connected',
+      },
+    ]}
+  />
+ <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        target: '_blank',
+        text: 'Get templates',
+        href: 'https://github.com/arthelokyo/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">Be a part of our vision</Fragment>
+
+    <Fragment slot="subtitle">
+      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
+      impact.
+    </Fragment>
+  </CallToAction>
+  <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "a8344e9b-518e-4fee-a6bc-03de316c2c1b"
+  });
+</script>
+</Layout>
