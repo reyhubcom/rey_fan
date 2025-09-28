@@ -30,8 +30,8 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'EXCHANGE',
-          href: '/buy',
+          text: 'Hire me',
+          href: '#',
         },
       ]}
       isSticky
