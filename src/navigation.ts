@@ -10,48 +10,48 @@ export const headerData = {
           href: getPermalink('/homes/staking'),
         },
         {
-          text: 'Startup',
+          text: 'Bitcoin Staking',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake ETH',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Custodians',
           href: getPermalink('/homes/personal'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Protocols',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Ethereum',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Solana',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Eigenlayer',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'Celestia',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Polkadot',
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
+          text: 'Polygon',
           href: getPermalink('/terms'),
         },
         {
-          text: 'Privacy policy',
+          text: 'View All Protocols',
           href: getPermalink('/privacy'),
         },
       ],
