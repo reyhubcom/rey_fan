@@ -48,8 +48,6 @@ const metadata = {
     actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
   >
     <Fragment slot="subtitle">
-      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/33650b14-d62e-4c83-af5a-aade8ba127e0/eQxmq8WqfS.lottie" speed="1" style="width: 100%; height: 300px" mode="forward" loop autoplay></dotlottie-wc>
       I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
       New York University's School of Design. I infuse vitality into brands and designs, transforming concepts into captivating
       realities.
@@ -87,7 +85,11 @@ const metadata = {
         },
       },
     ]}
-    
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
   >
     <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
