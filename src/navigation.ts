@@ -57,32 +57,21 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Solutions',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Asset Management',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Custodians & Wallets',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Exchanges & Markeplaces',
           href: getPermalink('/landing/click-through'),
         },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+        
       ],
     },
     {
